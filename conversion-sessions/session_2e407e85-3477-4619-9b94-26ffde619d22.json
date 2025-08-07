@@ -30,5 +30,25 @@
       "value" : 2.0
     },
     "status" : "success"
+  }, {
+    "convertedResult" : 256.4833333333333,
+    "formula" : "((2.0 - 32) * 5/9) + 273.15 = 256.4833333333333 K",
+    "input" : {
+      "category" : "temperature",
+      "fromUnit" : "Fahrenheit",
+      "toUnit" : "Kelvin",
+      "value" : 2.0
+    },
+    "status" : "success"
+  }, {
+    "convertedResult" : 212.0,
+    "formula" : "(100.0 * 9/5) + 32 = 212.0 F",
+    "input" : {
+      "category" : "temperature",
+      "fromUnit" : "celsius",
+      "toUnit" : "fahrenheit",
+      "value" : 100.0
+    },
+    "status" : "success"
   } ]
 }
