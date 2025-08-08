@@ -7,6 +7,8 @@ public class ConversionResponse {
 
     private ConversionRequest input;
 
+    private String status;
+
     public Double getConvertedResult() {
         return convertedResult;
     }
@@ -39,5 +41,4 @@ public class ConversionResponse {
         this.status = status;
     }
 
-    private String status;
 }
